@@ -54,7 +54,10 @@ class DeliveryModal extends StatelessWidget {
                 width: double.maxFinite,
                 height: 64,
                 child: CustomOutlinedButton(
-                    onPressed: toggleStatus,
+                    onPressed: () {
+                      toggleStatus();
+                      Navigator.of(context).pop();
+                    },
                     text: isCompleted ? "Desfazer" : "Concluir"),
               )
             ]),
