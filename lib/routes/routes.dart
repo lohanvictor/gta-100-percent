@@ -4,6 +4,7 @@ import 'package:gta/view/collectables/graffiti.dart';
 import 'package:gta/view/collectables/horseshoe.dart';
 import 'package:gta/view/collectables/oyster.dart';
 import 'package:gta/view/collectables/pictures.dart';
+import 'package:gta/view/delivery/delivery.dart';
 import 'package:gta/view/import_export_vehicles/import_export_vehicles.dart';
 import 'package:gta/view/import_export_vehicles/map_vehicles.dart';
 import 'package:gta/view/import_export_vehicles/vehicles_list_1.dart';
@@ -32,4 +33,5 @@ final Map<String, WidgetBuilder> routes = {
   "VEHICLES_LIST_1": (BuildContext context) => const VehiclesList1View(),
   "VEHICLES_LIST_2": (BuildContext context) => const VehiclesList2View(),
   "VEHICLES_LIST_3": (BuildContext context) => const VehiclesList3View(),
+  "DELIVERY_MISSIONS": (BuildContext context) => const DeliveryView()
 };
