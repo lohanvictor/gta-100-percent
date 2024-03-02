@@ -7,7 +7,7 @@ import 'package:gta/constants/menu_options.dart';
 class CollectablesView extends StatelessWidget {
   const CollectablesView({super.key});
 
-  final String titlePage = "Collectables";
+  final String titlePage = "Colecionáveis";
 
   @override
   Widget build(BuildContext context) {
