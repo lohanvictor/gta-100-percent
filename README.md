@@ -1,16 +1,21 @@
-# gta
+# GTA 100%
 
-A new Flutter project.
+### Sumário
 
-## Getting Started
+- [Descrição](#descrição)
+- [Setup](#setup)
 
-This project is a starting point for a Flutter application.
+## Descrição
 
-A few resources to get you started if this is your first Flutter project:
+Guia mobile para a conquista de 100% do jogo GTA San Andreas. Neste aplicativo é possível ver quais missões primárias e secundários, assim como os itens coletáveis, para "zerar" 100% do jogo.  A documentação usada foi um [post](https://steamcommunity.com/sharedfiles/filedetails/?id=1974532552) feito na comunidade da plataforma Steam
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Setup
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+| Package        | Version    |
+| -------------- | ---------- |
+| Flutter        |  v3.16.3   |
+| Android Studio |  v2023.2.1 |
+| Java           |  v17       |
+
+Você precisará ter o [Flutter]([https://nodejs.org](https://docs.flutter.dev/get-started/install/windows/desktop?tab=download)) instalado em sua máquina, assim como o [Android Studio](https://developer.android.com/studio) e o [Java](https://www.oracle.com/br/java/technologies/downloads/).
+
